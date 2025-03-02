@@ -3,7 +3,7 @@
 /* Este programa crea un apuntador de tipo entero que apunta al inicio de un arreglo. */
 
 int main() {
-    int arreglo[5] = {1, 2, 3, 4, 5}, *apArr;
+    short arreglo[5] = {1, 2, 3, 4, 5}, *apArr;
 
     apArr = &arreglo[0]; // imprime la direccion de memoria del arreglo en la posicion [0]
     printf("Direccion del arreglo en la primera posicion: %x\n", &arreglo[0]);
